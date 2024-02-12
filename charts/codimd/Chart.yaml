@@ -14,7 +14,7 @@ sources:
   - https://github.com/hedgedoc/hedgedoc
   - https://github.com/hackmdio/codimd-helm
 
-kubeVersion: ">=1.14.0"
+kubeVersion: ">=1.22.0"
 
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
