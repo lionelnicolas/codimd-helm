@@ -9,7 +9,7 @@
 image:
   registry: "quay.io"
   repository: "hedgedoc/hedgedoc"
-  tag: "1.6.0"
+  tag: "1.9.9"
   pullPolicy: IfNotPresent
   pullSecrets: []
 #    - myRegistryKeySecretName
