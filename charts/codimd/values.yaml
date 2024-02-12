@@ -163,6 +163,7 @@ codimd:
   #      bucket:
   imageStorePersistentVolume:
     enabled: true
+    policy: keep
     size: '10Gi'
     storageClass: "-"
     accessModes:

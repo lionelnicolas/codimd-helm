@@ -111,6 +111,7 @@ If you want use ingress, please set `service.type` to be `ClusterIP`
 | codimd.imageUpload.s3.secretKey                | The AWS s3 secret key                                                                                     | `nil`                        |
 | codimd.imageUpload.s3.bucket                   | The AWS s3 bucket name                                                                                    | `nil`                        |
 | codimd.imageStorePersistentVolume.enabled      | Enable image persistence using PVC                                                                        | `true`                       |
+| codimd.imageStorePersistentVolume.policy       | The resource policy of the persistence volume (set to `keep` to prevent deletion on `helm uninstall`)     | `keep`                       |
 | codimd.imageStorePersistentVolume.size         | The size of persistence volume                                                                            | `10Gi`                       |
 | codimd.imageStorePersistentVolume.storageClass | The storageClass of persistence volume                                                                    | `-`                          |
 | codimd.imageStorePersistentVolume.accessModes  | The accessModes of persistence volume                                                                     | [`ReadWriteOnce`]            |
