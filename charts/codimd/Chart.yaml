@@ -11,7 +11,7 @@ maintainers:
     email: support@hackmd.io
 
 sources:
-  - https://github.com/hackmdio/codimd
+  - https://github.com/hedgedoc/hedgedoc
   - https://github.com/hackmdio/codimd-helm
 
 kubeVersion: ">=1.14.0"
@@ -22,4 +22,4 @@ version: 0.1.12
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application.
-appVersion: 2.5.1
+appVersion: 1.6.0

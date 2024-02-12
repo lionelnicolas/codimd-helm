@@ -7,9 +7,9 @@
 # fullnameOverride:
 
 image:
-  registry: "nabo.codimd.dev"
-  repository: "hackmdio/hackmd"
-  tag: "2.5.1"
+  registry: "quay.io"
+  repository: "hedgedoc/hedgedoc"
+  tag: "1.6.0"
   pullPolicy: IfNotPresent
   pullSecrets: []
 #    - myRegistryKeySecretName
